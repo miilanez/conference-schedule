@@ -19,7 +19,7 @@ const config: Config = {
     },
     extend: {
       backgroundImage: {
-        hero: '',
+        hero: "url('/images/hero/background.jpg')",
       },
     },
   },

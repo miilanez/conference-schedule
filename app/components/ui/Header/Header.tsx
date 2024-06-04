@@ -53,19 +53,19 @@ const Header = () => {
     <header
       style={{ backgroundColor: `${color}` }}
       // className="flex px-6 py-3 overflow-hidden absolute top-0 left-0 w-full z-50"
-      className="fixed top-0 w-full py-3 z-10 ease-in duration-300"
+      className="fixed w-full py-3 z-10 ease-in duration-300"
     >
       <nav className="w-full container mx-auto flex flex-row justify-between items-center">
         <div id="brand logo">
           <Logo />
         </div>
-        <Menu containerStyles="hidden md:flex" />
+        <Menu containerStyles="hidden md:flex" menuStyles="overflow-hidden hover:cursor-pointer mx-3 text-white hover:text-rose-600 relative font-medium hover:text-principal before:absolute before:-bottom-1 before:h-0.5 before:w-full before:scale-x-0 before:bg-secondary before:transition hover:before:scale-x-100" />
         <div id="contact" className="hidden md:flex">
           <Button
             type="button"
-            text="Fale Conosco"
+            text="Adquira seu Ingresso"
             link="https://api.whatsapp.com/send?phone=5581982301817&text=Fala%20Gabriel%2C%20Bom%20dia!"
-            containerStyles="px-4 py-2"
+            containerStyles="px-4 py-2 bg-violet-700 hover:bg-fuchsia-700"
           />
         </div>
 
@@ -73,7 +73,7 @@ const Header = () => {
         <div
           onClick={handleShowNavbar}
           id="mobile menu"
-          className="block md:hidden text-blue-950 z-10"
+          className="block md:hidden text-rose-500 z-10"
         >
           {navbar ? <FaTimes size={30} /> : <FaBars size={30} />}
         </div>
@@ -92,6 +92,7 @@ const Header = () => {
 
           <Menu
             containerStyles="m-10 flex flex-col text-center gap-8"
+            menuStyles="overflow-hidden hover:cursor-pointer mx-3 text-blue-500 hover:text-blue-900 relative font-medium hover:text-principal before:absolute before:-bottom-1 before:h-0.5 before:w-full before:scale-x-0 before:bg-secondary before:transition hover:before:scale-x-100"
             onLinkClick={handleLinkClick}
           />
 

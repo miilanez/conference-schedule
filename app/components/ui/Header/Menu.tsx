@@ -2,6 +2,7 @@ import { Link } from "react-scroll";
 
 interface MenuProps {
   containerStyles?: string;
+  menuStyles?: string;
   onLinkClick?: () => void;
 }
 
@@ -12,7 +13,7 @@ const links = [
   { name: "Contato", target: "contato", offset: "0" },
 ];
 
-const Menu: React.FC<MenuProps> = ({ containerStyles, onLinkClick }) => {
+const Menu: React.FC<MenuProps> = ({ containerStyles, menuStyles, onLinkClick }) => {
   return (
     <div id="menu" className={`${containerStyles}`}>
       {links.map((link, index) => {
@@ -26,7 +27,7 @@ const Menu: React.FC<MenuProps> = ({ containerStyles, onLinkClick }) => {
             duration={500}
             rel="noopener noreferrer"
             onClick={onLinkClick}
-            className="overflow-hidden hover:cursor-pointer mx-3 text-blue-950 hover:text-blue-700 relative font-medium hover:text-principal before:absolute before:-bottom-1 before:h-0.5 before:w-full before:scale-x-0 before:bg-secondary before:transition hover:before:scale-x-100"
+            className={`${menuStyles}`}
           >
             {link.name}
           </Link>
