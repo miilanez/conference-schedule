@@ -20,6 +20,7 @@ const config: Config = {
     extend: {
       backgroundImage: {
         hero: "url('/images/hero/background.jpg')",
+        timer: "url('/images/timer/bg.png')",
       },
     },
   },
