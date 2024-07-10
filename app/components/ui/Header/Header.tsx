@@ -41,7 +41,7 @@ const Header = () => {
   useEffect(() => {
     const changeColor = () => {
       if (window.scrollY >= 40) {
-        setColor("#ffffff");
+        setColor("#501a69");
       } else {
         setColor("transparent");
       }
