@@ -1,8 +1,8 @@
 import React from "react";
-import Hero from "./components/sections/Hero";
-import About from "./components/sections/About";
-import Timer from "./components/sections/Timer";
-import {Speakers} from "./components/sections/Speakers";
+import Hero from "./pages/home/sections/Hero";
+import About from "./pages/home/sections/About";
+import Timer from "./pages/home/sections/Timer";
+import {Speakers} from "./pages/home/sections/Speakers";
 
 const page = () => {
   return (

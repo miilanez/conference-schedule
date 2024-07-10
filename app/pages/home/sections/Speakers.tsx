@@ -1,5 +1,5 @@
 import React from "react";
-import EventSpeaker from "../cards/EventSpeaker";
+import EventSpeaker from "../../../components/cards/EventSpeaker";
 
 export const Speakers = () => {
   return (
