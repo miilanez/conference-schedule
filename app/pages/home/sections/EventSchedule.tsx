@@ -1,3 +1,5 @@
+'use client'
+import VerticalTab from "@/app/components/tabs/VerticalTab";
 import React from "react";
 
 const EventSchedule = () => {
@@ -12,8 +14,7 @@ const EventSchedule = () => {
           </p>
         </div>
         <div>
-
-            
+          <VerticalTab />
         </div>
       </div>
     </section>

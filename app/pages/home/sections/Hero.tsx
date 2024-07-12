@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import Button from "../../../components/ui/button/Button";
+import Button from "../../../components/button/Button";
 
 const Hero = () => {
   return (

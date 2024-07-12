@@ -13,7 +13,7 @@ import {
   FaWhatsapp,
 } from "react-icons/fa";
 import Menu from "./Menu";
-import Button from "../button/Button";
+import Button from "../../button/Button";
 import Logo from "../logo/Logo";
 
 const networks = [
