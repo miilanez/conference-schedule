@@ -1,3 +1,4 @@
+import PriceCard from "@/app/components/cards/PriceCard";
 import React from "react";
 
 const Price = () => {
@@ -10,6 +11,11 @@ const Price = () => {
             Escolha o melhor preço para você, considerando as vantagens e
             benefícios que o evento oferece.
           </p>
+          <div className="flex flex-col md:flex-row justify-evenly">
+            <PriceCard namePass="Day" price={69} linkButton="/" />
+            <PriceCard namePass="Full" price={79} linkButton="/" />
+            <PriceCard namePass="Group" price={99} linkButton="/" />
+          </div>
         </div>
       </div>
     </section>
