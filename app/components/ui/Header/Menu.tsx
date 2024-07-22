@@ -1,3 +1,4 @@
+// Import the Link component from the react-scroll library
 import { Link } from "react-scroll";
 
 interface MenuProps {
