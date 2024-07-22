@@ -4,7 +4,7 @@ import React from "react";
 
 const EventSchedule = () => {
   return (
-    <section>
+    <section id="calendario">
       <div className="container py-10 flex flex-col">
         <div id="title" className="flex flex-col justify-center items-center">
           <h1 className="text-3xl font-bold">Calendário</h1>

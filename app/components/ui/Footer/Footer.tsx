@@ -32,7 +32,7 @@ export const Footer = () => {
             {networks.map((network, index) => {
               return (
                 <Link key={index} href={network.target}>
-                  <span className="flex flex-row p-3 text-xl">
+                  <span className="flex flex-row p-3 text-xl text-violet-800 hover:text-violet-950">
                     {network.logo}
                   </span>
                 </Link>

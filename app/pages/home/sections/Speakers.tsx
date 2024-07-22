@@ -3,7 +3,7 @@ import EventSpeaker from "../../../components/cards/EventSpeaker";
 
 export const Speakers = () => {
   return (
-    <section>
+    <section id="palestrantes">
       <div className="container py-10 flex flex-col">
         <div id="title" className="flex flex-col justify-center items-center">
           <h1 className="text-3xl font-bold">Palestrantes</h1>

@@ -3,7 +3,7 @@ import React from "react";
 
 const Price = () => {
   return (
-    <section>
+    <section id="precos">
       <div className="container py-10 flex flex-col">
         <div id="title" className="flex flex-col justify-center items-center">
           <h1 className="text-3xl font-bold">Preço</h1>

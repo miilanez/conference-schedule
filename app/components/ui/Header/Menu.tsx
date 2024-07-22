@@ -7,9 +7,10 @@ interface MenuProps {
 }
 
 const links = [
-  { name: "Principal", target: "/", offset: "-100" },
   { name: "Sobre", target: "sobre", offset: "-80" },
-  { name: "Serviços", target: "servicos", offset: "-80" },
+  { name: "Palestrantes", target: "palestrantes", offset: "-80" },
+  { name: "Calendário", target: "calendario", offset: "-80" },
+  { name: "Preços", target: "precos", offset: "-80" },
   { name: "Contato", target: "contato", offset: "0" },
 ];
 

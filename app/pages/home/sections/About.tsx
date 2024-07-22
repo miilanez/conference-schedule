@@ -4,12 +4,12 @@ import Button from "../../../components/button/Button";
 
 const About = () => {
   return (
-    <section className="bg-slate-100">
+    <section id='sobre' className="bg-slate-100">
       <div className="container py-10 flex flex-col">
         <div id="title" className="flex flex-col justify-center items-center">
           <h1 className="text-3xl font-bold">Sobre o Evento</h1>
           <p className="my-5 text-sm text-slate-700 text-center">
-            A FUTURECOM América Latina é um importante espaço de diálogo entre
+            A Event Schedule América Latina é um importante espaço de diálogo entre
             diferentes atores da sociedade para refletir sobre o papel da
             tecnologia no continente e seu rumo nos próximos anos.
           </p>
@@ -30,7 +30,7 @@ const About = () => {
                 Qual o futuro da tecnologia?
               </h1>
               <p className="my-5 text-sm text-slate-700 text-left">
-                A FUTURECOM América Latina é um importante espaço de diálogo
+                A Event Schedule América Latina é um importante espaço de diálogo
                 entre diferentes atores da sociedade para refletir sobre o papel
                 da tecnologia no continente e seu rumo nos próximos anos.
               </p>
@@ -57,7 +57,7 @@ const About = () => {
                 Quando usar o Wordpress nos seus sites?
               </h1>
               <p className="my-5 text-sm text-slate-700 text-left">
-                A FUTURECOM América Latina é um importante espaço de diálogo
+                A Event Schedule América Latina é um importante espaço de diálogo
                 entre diferentes atores da sociedade para refletir sobre o papel
                 da tecnologia no continente e seu rumo nos próximos anos.
               </p>

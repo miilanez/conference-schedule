@@ -13,7 +13,7 @@ const Logo = () => {
           alt="Blue Umbrella Tech Incorporated Logo"
           className="hover:opacity-85"
         /> */}
-        <h1 className="text-3xl text-white">BrandLogo</h1>
+        <h1 className="text-2xl text-white">Event Schedule</h1>
       </Link>
     </div>
   );

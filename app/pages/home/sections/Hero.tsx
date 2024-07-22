@@ -13,7 +13,7 @@ const Hero = () => {
               Maior Evento do Ano
             </h3>
             <h1 className="text-3xl font-bold uppercase md:text-6xl my-3">
-              1ª Conferência de T.I. da América Latina (FUTURECOM)
+              1ª Event Schedule América Latina
             </h1>
             <h5 className="text-base md:text-base">
               Para uma América Justa, Sustentável e Desenvolvida
@@ -27,7 +27,7 @@ const Hero = () => {
             Venha explorar Startups e negócios de mais de 10.000 pessoas.
           </h1>
           <p className="my-5 text-sm text-slate-700">
-            A FUTURECOM América Latina é um importante espaço de diálogo entre
+            A Event Schedule América Latina é um importante espaço de diálogo entre
             diferentes atores da sociedade para refletir sobre o papel da
             tecnologia no continente e seu rumo nos próximos anos. Após as mais
             de 200 Conferências preparatórias que aconteceram de dezembro de
