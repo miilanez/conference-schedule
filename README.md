@@ -1,3 +1,5 @@
+Os organizadores de uma nova conferência React estão procurando um site que detalha todas as informações do evento. Isto é importante porque ajuda a despertar o interesse das pessoas no evento, mas também descobrir como realmente aproveitar o evento.
+
 ## Getting Started
 
 First, run the development server:
